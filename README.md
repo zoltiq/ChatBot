@@ -18,7 +18,7 @@ npm run build
 ## Usage
 Add the following code to your HTML page.
 ```html
-<link href="/dist/style.css" rel="stylesheet" />
+<link href="/dist/styles.css" rel="stylesheet" />
 <script type="module">
 	import { createChat } from '/dist/chat.bundle.es.js';
 
