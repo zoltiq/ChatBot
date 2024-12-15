@@ -4,6 +4,10 @@ Chatbot widget to embed on any page
 ## Developing
 Once you've created a project and installed dependencies with npm install (or pnpm install or yarn), start a development server:
 ```sh
+git clone https://github.com/zoltiq/ChatBot.git
+cd ChatBot
+npm install
+
 npm run dev
 
 # or start the server and open the app in a new browser tab
