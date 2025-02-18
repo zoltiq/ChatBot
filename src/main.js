@@ -2,7 +2,7 @@ import { mount } from 'svelte'
 import './app.css'
 import App from './App.svelte'
 
-export function createChat({ webhookUrl, title }) {
+export function createChat({ webhookUrl, title, welcomeMessage, inputPlaceholder, imageUpload, emoji }) {
   let container = document.querySelector('.chatbot-container');
   if (!container) {
     container = document.createElement('div');
@@ -14,7 +14,11 @@ export function createChat({ webhookUrl, title }) {
     target: document.querySelector('.chatbot-container'),
     props: {
       webhookUrl,
-      title
+      title,
+      welcomeMessage,
+      inputPlaceholder,
+      imageUpload,
+      emoji
     },
   })
 

@@ -9,9 +9,14 @@
   <body>
     <script type="module">
       import { createChat } from '/src/main.js';
+           
       createChat({
         webhookUrl: 'https://<YOUR-WEBHOOK-URL>',
-        title: 'Assistant AI'
+        title: 'Assistant AI',
+        welcomeMessage: 'Hi there! 👋 <br> How can I assist you today?',
+        inputPlaceholder: "Message...",
+        imageUpload: true,
+        emoji: true
       });
     </script>
   </body>
