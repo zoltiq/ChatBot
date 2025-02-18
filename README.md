@@ -28,7 +28,11 @@ Add the following code to your HTML page.
 
 	createChat({
 		webhookUrl: 'https://<YOUR-WEBHOOK-URL>',
-		title: 'Assistant AI'
+		title: 'Assistant AI',
+		welcomeMessage: 'Hi there! 👋 <br> How can I assist you today?',
+        	inputPlaceholder: "Message...",
+        	imageUpload: true,
+        	emoji: true
 	});
 </script>
 ```
