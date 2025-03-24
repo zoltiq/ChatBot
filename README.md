@@ -1,4 +1,4 @@
-# ChatBot
+# Widget for chatbot
 Chatbot widget to embed on any page
 
 ## Developing
